@@ -31,7 +31,7 @@ phases:
       # - command
   pre_build:
     commands:
-      - docker build -t akshay/docker-react -f Dockerfile.dev .
+      - docker build -t akshay/docker-react .
       
   build:
     commands:
