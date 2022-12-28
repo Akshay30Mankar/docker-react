@@ -20,11 +20,15 @@ version: 0.2
   #build-matrix:
   #build-graph:
 phases:
-  install:
+  #install:
     #If you use the Ubuntu standard image 2.0 or later, you must specify runtime-versions.
     #If you specify runtime-versions and use an image other than Ubuntu standard image 2.0, the build fails.
-    runtime-versions:
-      docker: 20.10.21
+    #runtime-versions:
+      # name: version
+      # name: version
+    #commands:
+      # - command
+      # - command
   pre_build:
     commands:
       - docker build -t akshay/docker-react -f Dockerfile.dev .
